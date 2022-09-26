@@ -16,7 +16,7 @@ import cluster from "cluster";
 import os from "os";
 import logger from "./utils/logger.js";
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 const MODO = process.env.MODO || "fork";
 const nroCPUs = os.cpus().length;
 
