@@ -1,4 +1,4 @@
-POST http://localhost:3000/api/productos HTTP/1.1
+POST http://localhost:8080/api/productos HTTP/1.1
 content-type: application/json
 
 {
@@ -7,6 +7,5 @@ content-type: application/json
     "codigo": "1",
     "precio": 1,
     "stock": 1,
-    "thumbnail":"asd",
-    "__v": 0
+    "thumbnail":"asd"
 }
